@@ -1,9 +1,6 @@
-# MYO Demo Application for iOS
+# MyoMuse - iOS part
 
-Re-write of the original [Myo iOS app](https://developer.thalmic.com/downloads) that comes with the SDK in Swift.
+Connect Myo with this app, then it sends the gyroscope data to the server specified.
 
-# Changes
-
-* Added Cocoapods for dependency managemnet.
-* Removed usless comments - the philoshipy is to keep it short and let the code speak for itself.
-* Add vibration on sync/unsync gesture - similar to the way the desktop Mac app works.
+Compile:
+- run `pod install` before compiling in xcode
