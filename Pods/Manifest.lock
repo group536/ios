@@ -1,0 +1,13 @@
+PODS:
+  - JLToast (1.3.5)
+  - Starscream (1.1.1)
+
+DEPENDENCIES:
+  - JLToast
+  - Starscream (~> 1.1.1)
+
+SPEC CHECKSUMS:
+  JLToast: 08024c173a36e4d747607593d59cc17f3c3b09f1
+  Starscream: d74dd8d122a6abd244d8d5e51f32891c796d0827
+
+COCOAPODS: 0.39.0

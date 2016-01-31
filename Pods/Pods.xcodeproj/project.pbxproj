@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB945D6C17D364F10C95331B05AC2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		1E17D7E06DE130369B39C29F43805FC5 /* Pods-HelloMyoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA8185E14C72E15F3F10893AD45549 /* Pods-HelloMyoSwift-dummy.m */; };
+		3077D85C49AFD32EE8AC40B07D4CB34D /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CBB0D8AF4417C4D63555C582AB607 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D462921D860D44807552E18EC40BADF /* JLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C6FF6DDC84522D51C28E84365D3B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9A0685194267436E258EB4A0868F43 /* JLToast-dummy.m */; };
+		52F5BCC2084C7D6A914502CB786E08E4 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD32AC060F7F5B588CAEF784E99545B /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC8753DFEBF2FB0A87F43CB2DED98 /* JLToastCenter.swift */; };
+		7FD218AADBF39A0FCD755008E3C0E37E /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77262B236C8220A307681795A75DA86C /* Starscream-dummy.m */; };
+		A8A9E620DF69F06D63548F6CEB8E43BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		ABE7E56076B013A27DC18F080F5BDA16 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B3A8CE936B94D8234E3266BA2DCCC /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9585735F24972BFC511C43DFE522198 /* Pods-HelloMyoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B4E3DDC6E3533F4CDCDFB76635A6E2 /* Pods-HelloMyoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3091549837A604151E5917BF8A9A6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
+		D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */ = {isa = PBXBuildFile; fileRef = E078590771A55BEAEC1A583D7A38C56B /* JLToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4392E9DBC61A3B5E5849432D5C841F4 /* JLToastView.swift */; };
+		EA11BBEC6D0F589401769300F94BF6FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83B6F856C213A78102E92052F1EDEFA /* JLToastWindow.swift */; };
+		FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FA9861051431A431A32EFE6BE25E /* JLToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFB0950900A821DA2ADFCAEA3B8AD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA043039D7FB4B4EA78F9E6A1FF596F;
+			remoteInfo = Starscream;
+		};
+		CDF9D0B7407F28F43EBD7A139B18EF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892FE5BFDD0FD8B38E22D76135459FE4;
+			remoteInfo = JLToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B4E3DDC6E3533F4CDCDFB76635A6E2 /* Pods-HelloMyoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloMyoSwift-umbrella.h"; sourceTree = "<group>"; };
+		1BD32AC060F7F5B588CAEF784E99545B /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		1C6070ECA2B99091DAA7FC711468CD5E /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		275CBB0D8AF4417C4D63555C582AB607 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		42656E7DBB9B22CC956838C2B208BAF0 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		4392FA9861051431A431A32EFE6BE25E /* JLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToast.swift; path = JLToast/JLToast.swift; sourceTree = "<group>"; };
+		4D462921D860D44807552E18EC40BADF /* JLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-umbrella.h"; sourceTree = "<group>"; };
+		4DFA8185E14C72E15F3F10893AD45549 /* Pods-HelloMyoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloMyoSwift-dummy.m"; sourceTree = "<group>"; };
+		6B5FCC9FAE00F23B51020CA41EEB4A9A /* Pods-HelloMyoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HelloMyoSwift.modulemap"; sourceTree = "<group>"; };
+		77262B236C8220A307681795A75DA86C /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		774345FC4C94D14E7C5C0E2A2289FBC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C8414371419DADA4C2D06AA48C444A /* Pods-HelloMyoSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloMyoSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		8734FBEFDD31C6AF9C6F9FF3546B6EC3 /* Pods_HelloMyoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMyoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9EAAC3C22A1971E94345FD726680E4DB /* Pods-HelloMyoSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloMyoSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A861D3A81EC3A7FDD6FA467A9BD5A0FD /* JLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLToast.modulemap; sourceTree = "<group>"; };
+		ADB7BD57195A754AA19124FAD65CC6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9A0685194267436E258EB4A0868F43 /* JLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLToast-dummy.m"; sourceTree = "<group>"; };
+		B4392E9DBC61A3B5E5849432D5C841F4 /* JLToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastView.swift; path = JLToast/JLToastView.swift; sourceTree = "<group>"; };
+		B78BFA8A2A86065EA9EF6640A6BA44E8 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD0D2DBA9A5EEDCED3B5F88B53F05904 /* JLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-prefix.pch"; sourceTree = "<group>"; };
+		BDCEC7DDCF01A89951CE3A6045458A0F /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Starscream.modulemap; sourceTree = "<group>"; };
+		C6BCCB64832E6391E07EA3DFEB2F1576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C750E36C6F302B71450492E58F49770E /* Pods-HelloMyoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloMyoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CAD81A1699C98F42F2FEFC567195C072 /* JLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B3A8CE936B94D8234E3266BA2DCCC /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E078590771A55BEAEC1A583D7A38C56B /* JLToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLToast.h; path = JLToast/JLToast.h; sourceTree = "<group>"; };
+		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E83B6F856C213A78102E92052F1EDEFA /* JLToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastWindow.swift; path = JLToast/JLToastWindow.swift; sourceTree = "<group>"; };
+		E83F4B75C2F9EDA9CD14FBFD698DA4E7 /* Pods-HelloMyoSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloMyoSwift-resources.sh"; sourceTree = "<group>"; };
+		F12A6DA692B929557CD939732310D484 /* Pods-HelloMyoSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloMyoSwift-frameworks.sh"; sourceTree = "<group>"; };
+		F891A4DA622E8BFD4E71F735A563529A /* JLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLToast.xcconfig; sourceTree = "<group>"; };
+		FB7EC8753DFEBF2FB0A87F43CB2DED98 /* JLToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastCenter.swift; path = JLToast/JLToastCenter.swift; sourceTree = "<group>"; };
+		FDC63D70B77BCE7C8538642A7678DEFA /* Pods-HelloMyoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloMyoSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6FF6DDC84522D51C28E84365D3B30 /* Foundation.framework in Frameworks */,
+				BE3091549837A604151E5917BF8A9A6B /* QuartzCore.framework in Frameworks */,
+				EA11BBEC6D0F589401769300F94BF6FF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF59A82806B17BF61955B0D237CD484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB945D6C17D364F10C95331B05AC2C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431A7FF2F4639DAE1A17CD4F119B36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A9E620DF69F06D63548F6CEB8E43BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1379A67A64B3D2A703E11C91DFE28DFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				774345FC4C94D14E7C5C0E2A2289FBC4 /* Info.plist */,
+				BDCEC7DDCF01A89951CE3A6045458A0F /* Starscream.modulemap */,
+				B78BFA8A2A86065EA9EF6640A6BA44E8 /* Starscream.xcconfig */,
+				77262B236C8220A307681795A75DA86C /* Starscream-dummy.m */,
+				42656E7DBB9B22CC956838C2B208BAF0 /* Starscream-prefix.pch */,
+				1BD32AC060F7F5B588CAEF784E99545B /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		20BAEBC8421A199717E0BE0C752BCFE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD81A1699C98F42F2FEFC567195C072 /* JLToast.framework */,
+				8734FBEFDD31C6AF9C6F9FF3546B6EC3 /* Pods_HelloMyoSwift.framework */,
+				1C6070ECA2B99091DAA7FC711468CD5E /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7627C7B422DF3853A2131D9001DEAE /* JLToast */ = {
+			isa = PBXGroup;
+			children = (
+				E078590771A55BEAEC1A583D7A38C56B /* JLToast.h */,
+				4392FA9861051431A431A32EFE6BE25E /* JLToast.swift */,
+				FB7EC8753DFEBF2FB0A87F43CB2DED98 /* JLToastCenter.swift */,
+				B4392E9DBC61A3B5E5849432D5C841F4 /* JLToastView.swift */,
+				E83B6F856C213A78102E92052F1EDEFA /* JLToastWindow.swift */,
+				B82099231E811EF6913249DEE8529C74 /* Support Files */,
+			);
+			path = JLToast;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				E47E10EBF31857DE978F18C3F4B1D72F /* Pods */,
+				20BAEBC8421A199717E0BE0C752BCFE6 /* Products */,
+				CE2F42510533CFBBCAC8EABF733EA6FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B82099231E811EF6913249DEE8529C74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BCCB64832E6391E07EA3DFEB2F1576 /* Info.plist */,
+				A861D3A81EC3A7FDD6FA467A9BD5A0FD /* JLToast.modulemap */,
+				F891A4DA622E8BFD4E71F735A563529A /* JLToast.xcconfig */,
+				AF9A0685194267436E258EB4A0868F43 /* JLToast-dummy.m */,
+				BD0D2DBA9A5EEDCED3B5F88B53F05904 /* JLToast-prefix.pch */,
+				4D462921D860D44807552E18EC40BADF /* JLToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLToast";
+			sourceTree = "<group>";
+		};
+		B8AB5036F77504E80A41D1BEBD4D502F /* Pods-HelloMyoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7BD57195A754AA19124FAD65CC6DA /* Info.plist */,
+				6B5FCC9FAE00F23B51020CA41EEB4A9A /* Pods-HelloMyoSwift.modulemap */,
+				9EAAC3C22A1971E94345FD726680E4DB /* Pods-HelloMyoSwift-acknowledgements.markdown */,
+				81C8414371419DADA4C2D06AA48C444A /* Pods-HelloMyoSwift-acknowledgements.plist */,
+				4DFA8185E14C72E15F3F10893AD45549 /* Pods-HelloMyoSwift-dummy.m */,
+				F12A6DA692B929557CD939732310D484 /* Pods-HelloMyoSwift-frameworks.sh */,
+				E83F4B75C2F9EDA9CD14FBFD698DA4E7 /* Pods-HelloMyoSwift-resources.sh */,
+				18B4E3DDC6E3533F4CDCDFB76635A6E2 /* Pods-HelloMyoSwift-umbrella.h */,
+				C750E36C6F302B71450492E58F49770E /* Pods-HelloMyoSwift.debug.xcconfig */,
+				FDC63D70B77BCE7C8538642A7678DEFA /* Pods-HelloMyoSwift.release.xcconfig */,
+			);
+			name = "Pods-HelloMyoSwift";
+			path = "Target Support Files/Pods-HelloMyoSwift";
+			sourceTree = "<group>";
+		};
+		C8F44E673152C696D5B9B461B2E6E38E /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B3A8CE936B94D8234E3266BA2DCCC /* SSLSecurity.swift */,
+				275CBB0D8AF4417C4D63555C582AB607 /* WebSocket.swift */,
+				1379A67A64B3D2A703E11C91DFE28DFC /* Support Files */,
+			);
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		CE2F42510533CFBBCAC8EABF733EA6FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8AB5036F77504E80A41D1BEBD4D502F /* Pods-HelloMyoSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
+				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
+				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E47E10EBF31857DE978F18C3F4B1D72F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D7627C7B422DF3853A2131D9001DEAE /* JLToast */,
+				C8F44E673152C696D5B9B461B2E6E38E /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3616AD54D34C2E14B554653AED596949 /* JLToast-umbrella.h in Headers */,
+				D36A029CEF60071F5C3638DDC621130E /* JLToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C981ACAAA9D13C5477A2127E8BFAFE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F5BCC2084C7D6A914502CB786E08E4 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF7B3DD15BCE817F53C161EA13355F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9585735F24972BFC511C43DFE522198 /* Pods-HelloMyoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DE6F1B4AC5443A5A1E9F7BE23D3D65F /* Pods-HelloMyoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AAEC07875442EB5E08ECC0BA1F658A /* Build configuration list for PBXNativeTarget "Pods-HelloMyoSwift" */;
+			buildPhases = (
+				D4FAE47D0557CDF243B5B84BBFB89196 /* Sources */,
+				D431A7FF2F4639DAE1A17CD4F119B36E /* Frameworks */,
+				8CF7B3DD15BCE817F53C161EA13355F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE13DADA7184D96224E8241CBB951F6 /* PBXTargetDependency */,
+				AFEC7D9C345D8BF00A6AD008A553DFB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloMyoSwift";
+			productName = "Pods-HelloMyoSwift";
+			productReference = 8734FBEFDD31C6AF9C6F9FF3546B6EC3 /* Pods_HelloMyoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */;
+			buildPhases = (
+				AD5A5E42445A5807A5C463048B26E9AC /* Sources */,
+				7D5B1BFF39A32281B7F96DAA3BFFF2B3 /* Frameworks */,
+				34AC802A501AE8A8DBD7C05F7007A2E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLToast;
+			productName = JLToast;
+			productReference = CAD81A1699C98F42F2FEFC567195C072 /* JLToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CA043039D7FB4B4EA78F9E6A1FF596F /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A1ECF96D9FEA293A0B0D32D5CF99E2 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				696EF790568765BAF96E74DC8A76B532 /* Sources */,
+				8DF59A82806B17BF61955B0D237CD484 /* Frameworks */,
+				4C981ACAAA9D13C5477A2127E8BFAFE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 1C6070ECA2B99091DAA7FC711468CD5E /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 20BAEBC8421A199717E0BE0C752BCFE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */,
+				1DE6F1B4AC5443A5A1E9F7BE23D3D65F /* Pods-HelloMyoSwift */,
+				9CA043039D7FB4B4EA78F9E6A1FF596F /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696EF790568765BAF96E74DC8A76B532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE7E56076B013A27DC18F080F5BDA16 /* SSLSecurity.swift in Sources */,
+				7FD218AADBF39A0FCD755008E3C0E37E /* Starscream-dummy.m in Sources */,
+				3077D85C49AFD32EE8AC40B07D4CB34D /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5A5E42445A5807A5C463048B26E9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44938CB1DDF7FFC491E7BEFD9E5CBA42 /* JLToast-dummy.m in Sources */,
+				FEA95CA3AD7F8A7BDD3B89D1168E9470 /* JLToast.swift in Sources */,
+				7901D313EBA7552B7884C6D17E7A2EBB /* JLToastCenter.swift in Sources */,
+				E111F21E49289AD29377229E697E60D2 /* JLToastView.swift in Sources */,
+				EEB9F014CC9291C83A9055C1D0B25369 /* JLToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FAE47D0557CDF243B5B84BBFB89196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E17D7E06DE130369B39C29F43805FC5 /* Pods-HelloMyoSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE13DADA7184D96224E8241CBB951F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLToast;
+			target = 892FE5BFDD0FD8B38E22D76135459FE4 /* JLToast */;
+			targetProxy = CDF9D0B7407F28F43EBD7A139B18EF03 /* PBXContainerItemProxy */;
+		};
+		AFEC7D9C345D8BF00A6AD008A553DFB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9CA043039D7FB4B4EA78F9E6A1FF596F /* Starscream */;
+			targetProxy = 5AFB0950900A821DA2ADFCAEA3B8AD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		294B9595BDC32B4C1AD9D0049EAF4142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F891A4DA622E8BFD4E71F735A563529A /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731CB71B2AE1DB6EB732B5FBDF69F2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78BFA8A2A86065EA9EF6640A6BA44E8 /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B1A70A689B9BF1F00DDE6F01673F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78BFA8A2A86065EA9EF6640A6BA44E8 /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		875BA1AFDA4E4F1A0ABA4D18C031BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F891A4DA622E8BFD4E71F735A563529A /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C22375263CF9E4906DDAF3CEA2CD32C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC63D70B77BCE7C8538642A7678DEFA /* Pods-HelloMyoSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloMyoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloMyoSwift/Pods-HelloMyoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HelloMyoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0A57F3FF3B1465836A85FCB2416E579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C750E36C6F302B71450492E58F49770E /* Pods-HelloMyoSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloMyoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloMyoSwift/Pods-HelloMyoSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HelloMyoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1349755B78D3666A6D93F2206BE0E7 /* Build configuration list for PBXNativeTarget "JLToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875BA1AFDA4E4F1A0ABA4D18C031BA8D /* Debug */,
+				294B9595BDC32B4C1AD9D0049EAF4142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AAEC07875442EB5E08ECC0BA1F658A /* Build configuration list for PBXNativeTarget "Pods-HelloMyoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A57F3FF3B1465836A85FCB2416E579 /* Debug */,
+				C22375263CF9E4906DDAF3CEA2CD32C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A1ECF96D9FEA293A0B0D32D5CF99E2 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731CB71B2AE1DB6EB732B5FBDF69F2FA /* Debug */,
+				82B1A70A689B9BF1F00DDE6F01673F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

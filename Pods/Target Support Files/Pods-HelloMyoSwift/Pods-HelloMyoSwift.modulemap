@@ -1,0 +1,6 @@
+framework module Pods_HelloMyoSwift {
+  umbrella header "Pods-HelloMyoSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
